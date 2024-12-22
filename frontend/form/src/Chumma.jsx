@@ -19,7 +19,7 @@ function Chumma() {
   const onSubmit = async (data) => {
     try {
       console.log("called")
-      const response = await axios.post('https://employee-task-0ann.onrender.com/api/employee', data);
+      const response = await axios.post('https://employee-task-1.onrender.com/api/employee', data);
       setMessage(response.data.message);
       setIsError(false); // Set to false for success
       // Reset form fields after successful submission

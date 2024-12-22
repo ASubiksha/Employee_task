@@ -11,7 +11,7 @@ function DisplayEmployees() {
     // Fetch employees when the component mounts
     const fetchEmployees = async () => {
       try {
-        const response = await axios.get('https://employee-task-0ann.onrender.com/api/employees');
+        const response = await axios.get('https://employee-task-1.onrender.com/api/employees');
         setEmployees(response.data);
       } catch (err) {
         setError('Failed to fetch employees');
